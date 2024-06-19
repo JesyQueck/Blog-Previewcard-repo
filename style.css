@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+@font-face{
+    font-family: figtree;
+    src: url('static/Figtree-ExtraBold.ttf');  
+}
+@font-face {
+    font-family: figtreeSB;
+    src: url('static/Figtree-SemiBold.ttf');
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    margin: 100px auto 0;
+    background-color: hsl(0, 0%, 100%);
+    outline: 3px solid hsl(0, 0%, 7%);
+    border-radius: 12px;
+    box-shadow: 5px 5px;
+    transition: 0.3s;
+    position: relative;
+}
+
+img{
+    width: 270px;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+h1{
+    font-size: 18px;
+    margin: 0 15px 15px 15px;
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px;
+    border-radius: 8px;
+    width: 90px;
+    font-family: figtree;
+
+}
+
+h2{
+    margin: 0 15px 15px 15px;
+    font-size: 16px;
+    font-family: figtreeSB;
+}
+
+a{
+    font-size: 20px;
+    margin: 0 15px 15px 15px;
+    font-family: figtree;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+
+}
+.card:hover{
+    box-shadow: 10px 10px;
+    
+}
+.card a:hover{
+    color: hsl(47, 88%, 63%);
+    z-index: 2;
+}
+
+p{
+    font-size: 13px;
+    margin: 15px 15px 15px;
+    font-family: figtreeSB;
+    color: hsl(0, 0%, 50%);
+}
+
+figure{
+    display: flex;
+    align-items: center;
+
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    
+}
+
+h4{
+    font-size: 15;
+    font-family: figtree;
+}
+
+
